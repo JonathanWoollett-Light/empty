@@ -1,0 +1,1040 @@
+{
+  "Intel": {
+    "leaf_0": {
+      "eax": 22,
+      "ebx": "Genu",
+      "ecx": "ntel",
+      "edx": "ineI"
+    },
+    "leaf_1": {
+      "eax": [
+        [],
+        {
+          "extended_family_id": 180,
+          "model": 0,
+          "extended_model_id": 0,
+          "family_id": 8,
+          "processor_type": 0,
+          "stepping_id": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "brand_index": 35,
+          "initial_apic_id": 118,
+          "clflush": 178,
+          "max_addressable_logical_processor_ids": 250
+        }
+      ],
+      "ecx": [
+        [
+          "xtpr_update_control",
+          "sse3",
+          "cmpxchg16b",
+          "pdcm",
+          "pcid",
+          "vmx",
+          "ds_cpl",
+          "fma",
+          "smx",
+          "dtes64",
+          "popcnt",
+          "pclmulqdq",
+          "eist",
+          "monitor",
+          "sse4_1",
+          "tsc_deadline",
+          "aesni",
+          "xsave",
+          "sdbg",
+          "ssse3",
+          "tm2",
+          "osxsave"
+        ],
+        {}
+      ],
+      "edx": [
+        [
+          "htt",
+          "tm",
+          "cx8",
+          "mca",
+          "pge",
+          "fpu",
+          "apic",
+          "pat",
+          "pse3_36",
+          "sse",
+          "sse2"
+        ],
+        {}
+      ]
+    },
+    "leaf_2": {
+      "eax": [
+        1,
+        99,
+        3,
+        118
+      ],
+      "ebx": [
+        255,
+        181,
+        240,
+        0
+      ],
+      "ecx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "edx": [
+        0,
+        0,
+        195,
+        0
+      ]
+    },
+    "leaf_3": {
+      "eax": [
+        [],
+        {}
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {
+          "bit_processor_serial_number_00_31": 0
+        }
+      ],
+      "edx": [
+        [],
+        {
+          "bit_processor_serial_number_32_63": 2080391457
+        }
+      ]
+    },
+    "leaf_4": [
+      {
+        "eax": [
+          [],
+          {
+            "cache_type_field": 31,
+            "max_num_addressable_ids_for_logical_processors_sharing_this_cache": 1792,
+            "cache_level": 1,
+            "max_num_addressable_ids_for_processor_cores_in_physical_package": 0
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "ways_of_associativity": 0,
+            "system_coherency_line_size": 63,
+            "physical_line_partitions": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "number_of_sets": 0
+          }
+        ],
+        "edx": [
+          [
+            "cache_inclusiveness"
+          ],
+          {}
+        ]
+      },
+      {
+        "eax": [
+          [],
+          {
+            "max_num_addressable_ids_for_processor_cores_in_physical_package": 0,
+            "max_num_addressable_ids_for_logical_processors_sharing_this_cache": 1792,
+            "cache_type_field": 31,
+            "cache_level": 1
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "ways_of_associativity": 0,
+            "physical_line_partitions": 0,
+            "system_coherency_line_size": 63
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "number_of_sets": 0
+          }
+        ],
+        "edx": [
+          [
+            "write_back_invalidate",
+            "cache_inclusiveness"
+          ],
+          {}
+        ]
+      },
+      {
+        "eax": [
+          [],
+          {
+            "cache_level": 1,
+            "cache_type_field": 31,
+            "max_num_addressable_ids_for_logical_processors_sharing_this_cache": 3840,
+            "max_num_addressable_ids_for_processor_cores_in_physical_package": 0
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "ways_of_associativity": 0,
+            "system_coherency_line_size": 1023,
+            "physical_line_partitions": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "number_of_sets": 0
+          }
+        ],
+        "edx": [
+          [
+            "cache_inclusiveness",
+            "write_back_invalidate"
+          ],
+          {}
+        ]
+      },
+      {
+        "eax": [
+          [],
+          {
+            "cache_type_field": 31,
+            "max_num_addressable_ids_for_logical_processors_sharing_this_cache": 2560,
+            "cache_level": 1,
+            "max_num_addressable_ids_for_processor_cores_in_physical_package": 0
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "physical_line_partitions": 12,
+            "system_coherency_line_size": 4095,
+            "ways_of_associativity": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "number_of_sets": 5
+          }
+        ],
+        "edx": [
+          [],
+          {}
+        ]
+      },
+      {
+        "eax": [
+          [],
+          {
+            "max_num_addressable_ids_for_logical_processors_sharing_this_cache": 0,
+            "cache_level": 0,
+            "max_num_addressable_ids_for_processor_cores_in_physical_package": 0,
+            "cache_type_field": 0
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "system_coherency_line_size": 0,
+            "ways_of_associativity": 0,
+            "physical_line_partitions": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "number_of_sets": 0
+          }
+        ],
+        "edx": [
+          [
+            "write_back_invalidate",
+            "complex_cache_indexing"
+          ],
+          {}
+        ]
+      }
+    ],
+    "leaf_5": {
+      "eax": [
+        [],
+        {
+          "smallest_monitor_line_size": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "largest_monitor_line_size": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {
+          "c3_states": 0,
+          "c5_states": 0,
+          "c0_states": 4,
+          "c2_states": 0,
+          "c7_states": 0,
+          "c1_states": 0,
+          "c4_states": 0,
+          "c6_states": 0
+        }
+      ]
+    },
+    "leaf_6": {
+      "eax": [
+        [],
+        {}
+      ],
+      "ebx": [
+        [],
+        {
+          "number_of_interrupt_thresholds_in_digital_thermal_sensor": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {
+          "intel_thread_director_classes": 0
+        }
+      ],
+      "edx": [
+        [],
+        {
+          "enum_hardware_feedback_interface_4k": 0,
+          "bitmap_hardware_feedback_interface_capabilities": 0,
+          "index": 0
+        }
+      ]
+    },
+    "leaf_7": [
+      {
+        "eax": [
+          [],
+          {
+            "max_input_value_subleaf": 3516876715
+          }
+        ],
+        "ebx": [
+          [
+            "sgx",
+            "rtm",
+            "bmi1"
+          ],
+          {}
+        ],
+        "ecx": [
+          [
+            "movdiri",
+            "pks",
+            "vpclmulqdq"
+          ],
+          {
+            "value_of_mawau": 0
+          }
+        ],
+        "edx": [
+          [],
+          {
+            "serialize": 0
+          }
+        ]
+      },
+      null
+    ],
+    "leaf_9": {
+      "eax": [
+        [],
+        {
+          "ia32_platform_dca_cap_msr": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_a": {
+      "eax": [
+        [],
+        {
+          "num_perf_monitor_counter_per_logical_processor": 0,
+          "version_id_of_architectural_performance_monitoring": 0,
+          "len_ebx_bit_vec": 0,
+          "bot_width_perf_monitor_counter": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {
+          "supported_fixed_counters_bit_mask": 34307
+        }
+      ],
+      "edx": [
+        [],
+        {
+          "contigous_fixed_function_performance_counter": 1,
+          "bit_width_of_fixed_function_performnace_counter": 0
+        }
+      ]
+    },
+    "leaf_b": [
+      {
+        "eax": [
+          [],
+          {
+            "bit_shifts_right_2x_apic_id_unique_topology_id": 2
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "logical_processors": 256
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "level_number": 43,
+            "level_type": 0
+          }
+        ],
+        "edx": [
+          [],
+          {
+            "x2_apic_id_current_logical_processor": 6
+          }
+        ]
+      },
+      {
+        "eax": [
+          [],
+          {
+            "bit_shifts_right_2x_apic_id_unique_topology_id": 16
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "logical_processors": 513
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "level_number": 43,
+            "level_type": 0
+          }
+        ],
+        "edx": [
+          [],
+          {
+            "x2_apic_id_current_logical_processor": 0
+          }
+        ]
+      },
+      {
+        "eax": [
+          [],
+          {
+            "bit_shifts_right_2x_apic_id_unique_topology_id": 0
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "logical_processors": 2
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "level_number": 43,
+            "level_type": 0
+          }
+        ],
+        "edx": [
+          [],
+          {
+            "x2_apic_id_current_logical_processor": 3498731480
+          }
+        ]
+      }
+    ],
+    "leaf_d": [
+      {
+        "eax": [
+          [
+            "pkru_state"
+          ],
+          {
+            "avx512_state": 4,
+            "mpx_state": 1
+          }
+        ],
+        "ebx": [
+          [],
+          {
+            "maximum_size": 2696
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "maximum_size": 0
+          }
+        ],
+        "edx": [
+          [],
+          {}
+        ]
+      },
+      {
+        "eax": [
+          [
+            "xsaves_xrstors_ia32_xss"
+          ],
+          {}
+        ],
+        "ebx": [
+          [],
+          {
+            "xsave_size": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {
+            "xcr0_1": 0
+          }
+        ],
+        "edx": [
+          [],
+          {}
+        ]
+      },
+      [
+        {
+          "eax": [
+            [],
+            {
+              "save_area_size": 576
+            }
+          ],
+          "ebx": [
+            [],
+            {
+              "save_area_offset": 0
+            }
+          ],
+          "ecx": [
+            [],
+            {}
+          ],
+          "edx": [
+            [],
+            {}
+          ]
+        },
+        {
+          "eax": [
+            [],
+            {
+              "save_area_size": 960
+            }
+          ],
+          "ebx": [
+            [],
+            {
+              "save_area_offset": 0
+            }
+          ],
+          "ecx": [
+            [],
+            {}
+          ],
+          "edx": [
+            [],
+            {}
+          ]
+        },
+        {
+          "eax": [
+            [],
+            {
+              "save_area_size": 1024
+            }
+          ],
+          "ebx": [
+            [],
+            {
+              "save_area_offset": 0
+            }
+          ],
+          "ecx": [
+            [],
+            {}
+          ],
+          "edx": [
+            [],
+            {}
+          ]
+        },
+        {
+          "eax": [
+            [],
+            {
+              "save_area_size": 1088
+            }
+          ],
+          "ebx": [
+            [],
+            {
+              "save_area_offset": 0
+            }
+          ],
+          "ecx": [
+            [],
+            {}
+          ],
+          "edx": [
+            [],
+            {}
+          ]
+        },
+        {
+          "eax": [
+            [],
+            {
+              "save_area_size": 1152
+            }
+          ],
+          "ebx": [
+            [],
+            {
+              "save_area_offset": 0
+            }
+          ],
+          "ecx": [
+            [],
+            {}
+          ],
+          "edx": [
+            [],
+            {}
+          ]
+        },
+        {
+          "eax": [
+            [],
+            {
+              "save_area_size": 1664
+            }
+          ],
+          "ebx": [
+            [],
+            {
+              "save_area_offset": 0
+            }
+          ],
+          "ecx": [
+            [],
+            {}
+          ],
+          "edx": [
+            [],
+            {}
+          ]
+        }
+      ]
+    ],
+    "leaf_f": [
+      {
+        "eax": [
+          [],
+          {}
+        ],
+        "ebx": [
+          [],
+          {
+            "max_rmid_range": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {}
+        ],
+        "edx": [
+          [],
+          {}
+        ]
+      },
+      null
+    ],
+    "leaf_10": [
+      {
+        "eax": [
+          [],
+          {}
+        ],
+        "ebx": [
+          [],
+          {}
+        ],
+        "ecx": [
+          [],
+          {}
+        ],
+        "edx": [
+          [],
+          {}
+        ]
+      },
+      null,
+      null,
+      null
+    ],
+    "leaf_12": [
+      {
+        "eax": [
+          [],
+          {}
+        ],
+        "ebx": [
+          [],
+          {
+            "miscselect": 0
+          }
+        ],
+        "ecx": [
+          [],
+          {}
+        ],
+        "edx": [
+          [],
+          {
+            "max_enclave_size_not_64": 0,
+            "max_enclave_size_64": 0
+          }
+        ]
+      },
+      null,
+      []
+    ],
+    "leaf_14": [
+      {
+        "eax": [
+          [],
+          {
+            "max_subleaf": 0
+          }
+        ],
+        "ebx": [
+          [],
+          {}
+        ],
+        "ecx": [
+          [],
+          {}
+        ],
+        "edx": [
+          [],
+          {}
+        ]
+      },
+      null
+    ],
+    "leaf_15": {
+      "eax": [
+        [],
+        {
+          "tsc_denominator": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "tsc_numerator": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {
+          "nominal_freqeuncy": 0
+        }
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_16": {
+      "eax": [
+        [],
+        {
+          "base_frequency": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "max_frequency": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {
+          "ref_frequency": 0
+        }
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_17": null,
+    "leaf_18": null,
+    "leaf_19": null,
+    "leaf_1a": null,
+    "leaf_1b": null,
+    "leaf_1c": null,
+    "leaf_1f": [],
+    "leaf_20": null,
+    "leaf_80000000": {
+      "eax": [
+        [],
+        {
+          "max_extend_function_input": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_80000001": {
+      "eax": [
+        [],
+        {
+          "extended_processor_signature_and_feature_bits": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_80000002": {
+      "eax": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "edx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ]
+    },
+    "leaf_80000003": {
+      "eax": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "edx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ]
+    },
+    "leaf_80000004": {
+      "eax": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "ebx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "ecx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ],
+      "edx": [
+        [],
+        {
+          "processor_brand_string": 0
+        }
+      ]
+    },
+    "leaf_80000005": {
+      "eax": [
+        [],
+        {}
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_80000006": {
+      "eax": [
+        [],
+        {}
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {
+          "cache_size_1k_units": 0,
+          "cache_line_size": 0,
+          "l2_associativity": 0
+        }
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_80000007": {
+      "eax": [
+        [],
+        {}
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    },
+    "leaf_80000008": {
+      "eax": [
+        [],
+        {
+          "physical_address_bits": 0,
+          "linear_address_bits": 208
+        }
+      ],
+      "ebx": [
+        [],
+        {}
+      ],
+      "ecx": [
+        [],
+        {}
+      ],
+      "edx": [
+        [],
+        {}
+      ]
+    }
+  }
+}
